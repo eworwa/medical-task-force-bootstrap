@@ -1,0 +1,62 @@
+/* General */
+./*small-font{font-size: 10px;}*/
+.mid-font{font-size: 12px;}
+#advertisement-section,
+#company-info-section{padding-top: 10px;padding-bottom: 15px;}
+p{color: #666666}
+h2, h3{color: #186762;}
+.read-more-link{text-transform: uppercase;text-decoration: underline;font-style: bold;color: #333;}
+
+/* Header advertisement section */
+#advertisement-section{background-color: #F1F1F1;}
+#advertisement-section p{color: #343434;}
+
+#header-placeholder{width: 728px;height: 90px;background-color: #D7DBDA;}
+#header-placeholder p{line-height: 90px;}
+
+/* Header info section */
+#search-box{border: solid 1px #C1C1C1;width: 55px;padding: 10px;text-align: center;border-radius: 25px;font-size: 20px;color: #656F70;}
+
+/* Main menu */
+#main-menu-bar.navbar,
+#main-menu-bar-mobile.navbar{margin-bottom: 0px;background-color: #4E4E56;border: none;border-radius: 0px;}
+#main-menu a{border-right: solid 1px #A6A7A9;padding: 0px 20px;margin: 20px 0px;}
+#main-menu li:first-child a{padding-left: 0px;}
+#main-menu li:last-child a{border-right: none;}
+.menuHeaderCollpase{padding-left: 0px;}
+#main-menu a,
+#user-menu a,
+#user-menu-mobile a{color: #FFF;text-transform: uppercase;font-weight: bold;}
+#main-menu li:hover a,
+#user-menu a:hover,
+#user-menu-mobile a:hover{color: #4E4E56;}
+#main-menu li:hover{background-color: #fff;}
+#user-menu-mobile{margin-top: 0px;margin-bottom: 0px;}
+.navbar-toggle .glyphicon-menu-hamburger{color: #176764;font-size: 30px;}
+/* Main menu mobile */
+#user-menu-mobile{margin: auto;width: 285px;}
+#user-menu-mobile li{display: inline-block;border-right: solid 1px #A6A7A9;height: 50px;vertical-align: middle;padding-top: 5px;}
+#user-menu-mobile li:last-child{border-right: none;}
+/* Main menu toggled */
+@media screen and (max-width: 768px) {
+	#main-menu a{border-bottom: solid 1px #000;border-top: solid 1px #A6A7A9;padding: 10px;margin: 0px;margin-left: 15px;}
+	#main-menu li:first-child a{border-top: none;margin-left: 25px;}
+	#main-menu li:last-child a{border-bottom: none;}
+	.menuHeaderCollpase{padding-right: 0px !important;}
+	.menuHeaderCollpase #main-menu-inner{padding-left: 0px !important;}
+}
+
+/* Slider section */
+.carousel-inner img{height: 298px !important;}
+.carousel-inner h2{color: #4D4D55;}
+.carousel-indicators li,
+.carousel-indicators li.active{background-color: #AFB7BA;height: 15px;width: 15px;border: none;}
+.carousel-indicators li.active{background-color: #186764;}
+.carousel-control span{color: /*#7A8686*/#FFF;top: 50%;position: absolute;font-weight: bold;}
+
+/* Main content */
+#ad-container-right{border: solid 1px #CCC;padding: 10px;}
+#recent-content-highligh-section{margin-top: 30px;margin-bottom: 30px;}
+
+/* Other content section */
+#other-content .row div{margin-top: 10px;}
